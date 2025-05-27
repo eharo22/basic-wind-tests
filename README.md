@@ -1,31 +1,31 @@
-# 📘 Nombre del Proyecto
+# 📘 PLUGIN CUSTOM PARA EL VIENTO EN GAZEBO SIM 8.9.0
 
-Una breve descripción de qué hace este proyecto y para qué sirve.
+Este repositorio compila la información acerca de la implementación de plugins para Gazebo Sim (Harmonic) 8.9.0.
 
 ---
 
 ## 🚀 Características
 
-- ✨ Funcionalidad destacada 1
-- ⚡ Funcionalidad destacada 2
-- 🔧 Fácil de usar y modificar
+- 
 
 ---
 
 ## 📦 Requisitos
 
-- [Nombre del software o librería] versión X.X o superior
-- Otro requisito si aplica
+- 
+- 
 
 ---
 
 ## 🔧 Instalación
 
-```bash
-# Clona el repositorio
-git clone git@github.com:usuario/nombre-del-repo.git
+1) Descargar el folder del plugin. Para añadir un plugin custom a Gazebo se debe considerar la siguiente estructura:
 
-# Entra al directorio
-cd nombre-del-repo
+---FOLDER DEL PLUGIN 
+    |____CMake.txt
+    |____src
+    |    |___Plugin.cc
+    |____include
+        |___Plugin.hh
 
-# Ejecuta instrucciones de instalación si aplica
+2) Una vez agregado el folder del plugin al workspace de gazebo se debe correr:
